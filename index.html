@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muslim Medical Mission Pakistan — Wisdom · Action · Service</title>
+<meta name="description" content="Muslim Medical Mission (MMM) is a SECP-registered non-profit network of Muslim healthcare professionals providing free medical camps, welfare clinics, surgical camps, disaster relief and the ongoing Gaza Relief Mission — without discrimination of race or religion.">
+<meta property="og:title" content="Muslim Medical Mission Pakistan — Wisdom · Action · Service">
+<meta property="og:description" content="Free medical camps, welfare clinics, surgical camps, disaster relief and the ongoing Gaza Relief Mission. Donate, volunteer or become a member.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mmm.org.pk/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%230E6B4E'/%3E%3Cpath d='M29 10a14 14 0 1 0 9 24 15 15 0 0 1-9-24z' fill='%23E8C97E'/%3E%3Cpath d='M17 24h4l2-5 3 9 2-4h4' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/sora@5/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/manrope@5/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/amiri@5/400.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"NGO","name":"Muslim Medical Mission","alternateName":"MMM","url":"https://mmm.org.pk/","foundingDate":"2005","address":{"@type":"PostalAddress","addressLocality":"Lahore","addressCountry":"PK"},"telephone":"+92 321 4244433","email":"muslimmedical@gmail.com","sameAs":["https://www.facebook.com/MMMPakofficial/","https://x.com/MMMPakOfficial","https://www.instagram.com/muslimmedicalmission/"]}
+</script>
+<style>
+/* ============ DESIGN TOKENS ============ */
+:root{
+  --c-primary:#0E6B4E; --c-primary-dark:#0A4D39; --c-primary-deep:#062B20; --c-primary-ink:#04170F;
+  --c-teal:#12808A; --c-gold:#C89B3C; --c-gold-light:#E8C97E; --c-gold-soft:#F4E7C8;
+  --c-bg:#F8F7F2; --c-surface:#FFFFFF; --c-line:#E5E2D7; --c-line-dark:#12402F;
+  --c-ink:#132A21; --c-muted:#5B6B62; --c-white:#FFFFFF;
+  --sh-sm:0 1px 2px rgba(6,43,32,.06),0 2px 8px rgba(6,43,32,.06);
+  --sh-md:0 4px 12px rgba(6,43,32,.08),0 12px 32px rgba(6,43,32,.10);
+  --sh-lg:0 8px 24px rgba(6,43,32,.12),0 24px 64px rgba(6,43,32,.16);
+  --r-sm:10px; --r-md:16px; --r-lg:24px;
+  --t-fast:.18s cubic-bezier(.22,.61,.36,1); --t-base:.3s cubic-bezier(.22,.61,.36,1); --t-slow:.65s cubic-bezier(.22,.61,.36,1);
+  --sp-1:.25rem; --sp-2:.5rem; --sp-3:.75rem; --sp-4:1rem; --sp-5:1.5rem; --sp-6:2rem; --sp-8:3rem; --sp-10:4rem; --sp-12:5rem; --sp-16:7rem;
+  --font-head:'Sora Variable',system-ui,sans-serif; --font-body:'Manrope Variable',system-ui,sans-serif; --font-ar:'Amiri',serif;
+  --pat-light:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 8l7 17 17 7-17 7-7 17-7-17-17-7 17-7z' fill='none' stroke='%230E6B4E' stroke-opacity='.07'/%3E%3C/svg%3E");
+  --pat-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 8l7 17 17 7-17 7-7 17-7-17-17-7 17-7z' fill='none' stroke='%23E8C97E' stroke-opacity='.07'/%3E%3C/svg%3E");
+}
+/* ============ BASE ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+body{font-family:var(--font-body);color:var(--c-ink);background:var(--c-bg);line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul{list-style:none}
+h1,h2,h3,h4{font-family:var(--font-head);line-height:1.18;letter-spacing:-.01em;color:var(--c-ink)}
+.container{width:min(1180px,92%);margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{position:fixed;top:-60px;left:16px;z-index:200;background:var(--c-primary);color:#fff;padding:10px 18px;border-radius:var(--r-sm);transition:top var(--t-fast)}
+.skip-link:focus{top:12px}
+:focus-visible{outline:3px solid var(--c-gold);outline-offset:2px;border-radius:4px}
+.icon{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.icon.fill{fill:currentColor;stroke:none}
+.arabic{font-family:var(--font-ar)}
+/* Section scaffolding */
+.section{padding-block:var(--sp-12)}
+@media(min-width:900px){.section{padding-block:var(--sp-16)}}
+.sec-head{max-width:680px;margin-bottom:var(--sp-8)}
+.sec-head.center{margin-inline:auto;text-align:center}
+.kicker{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--font-head);font-size:.78rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--c-primary)}
+.kicker::before{content:"";width:28px;height:2px;background:var(--c-gold)}
+.sec-title{font-size:clamp(1.7rem,3.6vw,2.6rem);font-weight:700;margin-top:.7rem}
+.sec-sub{margin-top:1rem;color:var(--c-muted);font-size:1.05rem}
+.on-dark .kicker{color:var(--c-gold-light)}
+.on-dark .sec-title{color:#fff}
+.on-dark .sec-sub{color:#BCCFC6}
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;font-family:var(--font-head);font-weight:600;font-size:.95rem;padding:.9rem 1.7rem;border-radius:999px;transition:transform var(--t-fast),box-shadow var(--t-fast),background var(--t-fast),color var(--t-fast),border-color var(--t-fast);border:2px solid transparent;min-height:48px}
+.btn .icon{width:18px;height:18px;transition:transform var(--t-fast)}
+.btn:hover .icon.arr{transform:translateX(4px)}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--c-primary);color:#fff;box-shadow:var(--sh-sm)}
+.btn-primary:hover{background:var(--c-primary-dark);transform:translateY(-2px);box-shadow:var(--sh-md)}
+.btn-gold{background:var(--c-gold);color:#241703;box-shadow:var(--sh-sm)}
+.btn-gold:hover{background:#B8892C;transform:translateY(-2px);box-shadow:var(--sh-md)}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff;transform:translateY(-2px)}
+.btn-outline{border-color:var(--c-primary);color:var(--c-primary)}
+.btn-outline:hover{background:var(--c-primary);color:#fff;transform:translateY(-2px)}
+.link-arrow{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-head);font-weight:600;font-size:.92rem;color:var(--c-primary)}
+.link-arrow .icon{transition:transform var(--t-fast)}
+.link-arrow:hover .icon{transform:translateX(5px)}
+/* Reveal (JS-gated) */
+.js [data-reveal]{opacity:0;transform:translateY(26px);transition:opacity var(--t-slow),transform var(--t-slow)}
+.js [data-reveal].revealed{opacity:1;transform:none}
+.js [data-reveal="left"]{transform:translateX(-34px)}
+.js [data-reveal="right"]{transform:translateX(34px)}
+.js [data-reveal="zoom"]{transform:scale(.94)}
+.js [data-reveal].revealed{transform:none}
+/* ============ TOP BAR ============ */
+.topbar{background:var(--c-primary-ink);color:#CFE0D8;font-size:.82rem}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:.5rem}
+.topbar a{display:inline-flex;align-items:center;gap:.45rem;transition:color var(--t-fast)}
+.topbar a:hover{color:var(--c-gold-light)}
+.topbar .icon{width:14px;height:14px}
+.tb-left,.tb-right{display:flex;align-items:center;gap:1.2rem}
+.tb-badge{display:inline-flex;align-items:center;gap:.45rem;color:var(--c-gold-light);font-weight:600}
+.tb-social{display:flex;gap:.7rem}
+@media(max-width:820px){.topbar{display:none}}
+/* ============ HEADER ============ */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--c-line);transition:box-shadow var(--t-base)}
+.site-header.scrolled{box-shadow:var(--sh-md)}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.8rem;transition:padding var(--t-base)}
+.site-header.scrolled .nav-wrap{padding-block:.5rem}
+.brand{display:flex;align-items:center;gap:.7rem}
+.brand-logo{width:46px;height:46px;flex:none;transition:transform var(--t-base)}
+.brand:hover .brand-logo{transform:rotate(-6deg)}
+.brand-text{display:flex;flex-direction:column;line-height:1.15}
+.brand-name{font-family:var(--font-head);font-weight:700;font-size:1.06rem;color:var(--c-primary-dark)}
+.brand-tag{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--c-gold);font-weight:700}
+.main-nav{display:none}
+@media(min-width:1020px){.main-nav{display:flex;align-items:center;gap:.2rem}.nav-toggle{display:none}}
+.nav-link{position:relative;display:inline-flex;align-items:center;gap:.35rem;padding:.7rem .85rem;font-family:var(--font-head);font-weight:600;font-size:.9rem;color:var(--c-ink);border-radius:var(--r-sm);transition:color var(--t-fast)}
+.nav-link:hover{color:var(--c-primary)}
+.nav-link.active{color:var(--c-primary)}
+.nav-link.active::after{content:"";position:absolute;left:.85rem;right:.85rem;bottom:.3rem;height:2px;background:var(--c-gold);border-radius:2px}
+.has-drop{position:relative}
+.drop-btn .icon{width:14px;height:14px;transition:transform var(--t-fast)}
+.has-drop:hover .drop-btn .icon,.has-drop:focus-within .drop-btn .icon{transform:rotate(180deg)}
+.dropdown{position:absolute;top:100%;left:0;min-width:230px;background:#fff;border:1px solid var(--c-line);border-radius:var(--r-md);box-shadow:var(--sh-lg);padding:.5rem;opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity var(--t-base),transform var(--t-base),visibility var(--t-base)}
+.has-drop:hover .dropdown,.has-drop:focus-within .dropdown,.has-drop.open .dropdown{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown a{display:flex;align-items:center;gap:.6rem;padding:.65rem .8rem;border-radius:var(--r-sm);font-size:.9rem;font-weight:600;color:var(--c-ink)}
+.dropdown a:hover{background:var(--c-bg);color:var(--c-primary)}
+.dropdown a .icon{width:16px;height:16px;color:var(--c-gold)}
+.nav-cta{display:none}
+@media(min-width:1020px){.nav-cta{display:inline-flex;margin-left:.6rem}}
+.nav-toggle{display:inline-flex;flex-direction:column;gap:5px;padding:10px;border-radius:var(--r-sm)}
+.nav-toggle span{width:24px;height:2.5px;background:var(--c-primary-dark);border-radius:2px;transition:transform var(--t-base),opacity var(--t-base)}
+.nav-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+/* Mobile drawer */
+.drawer{position:fixed;inset:0;top:0;z-index:99;background:#fff;transform:translateX(100%);transition:transform var(--t-base);padding:96px 6% 2rem;overflow-y:auto}
+.drawer.open{transform:none;box-shadow:var(--sh-lg)}
+.drawer .nav-m-link{display:flex;justify-content:space-between;align-items:center;width:100%;padding:1rem .2rem;font-family:var(--font-head);font-weight:600;font-size:1.05rem;border-bottom:1px solid var(--c-line);text-align:left}
+.drawer .sub{overflow:hidden;max-height:0;transition:max-height var(--t-base)}
+.drawer .sub.open{max-height:300px}
+.drawer .sub a{display:flex;gap:.6rem;align-items:center;padding:.7rem .4rem;color:var(--c-muted);font-weight:600}
+.drawer .sub a .icon{width:16px;height:16px;color:var(--c-gold)}
+.drawer-cta{display:flex;flex-direction:column;gap:.8rem;margin-top:1.6rem}
+/* ============ HERO ============ */
+.hero{position:relative;height:min(92vh,860px);min-height:560px;background:var(--c-primary-ink);overflow:hidden}
+.hero-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 1s ease,visibility 1s}
+.hero-slide.is-active{opacity:1;visibility:visible}
+.hero-slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-slide.is-active img{animation:kenburns 9s ease-out forwards}
+@keyframes kenburns{from{transform:scale(1.12)}to{transform:scale(1.02)}}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(100deg,rgba(4,23,15,.92) 8%,rgba(4,23,15,.62) 46%,rgba(4,23,15,.18) 100%)}
+.hero-overlay::after{content:"";position:absolute;inset:auto 0 0 0;height:120px;background:linear-gradient(transparent,rgba(4,23,15,.55))}
+.hero-content{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;padding-block:4rem;max-width:720px}
+.hero-kicker{display:inline-flex;align-items:center;gap:.7rem;color:var(--c-gold-light);font-family:var(--font-head);font-weight:700;font-size:.8rem;letter-spacing:.26em;text-transform:uppercase}
+.hero-kicker::before{content:"";width:34px;height:2px;background:var(--c-gold)}
+.hero-title{color:#fff;font-size:clamp(2rem,5vw,3.6rem);font-weight:700;margin-top:1.1rem;text-wrap:balance}
+.hero-title em{font-style:normal;color:var(--c-gold-light)}
+.hero-text{color:#D9E5DF;font-size:clamp(.98rem,1.4vw,1.12rem);margin-top:1.1rem;max-width:560px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem}
+.hero-slide .hero-content>*{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.hero-slide.is-active .hero-content>*{opacity:1;transform:none}
+.hero-slide.is-active .hero-content>*:nth-child(1){transition-delay:.25s}
+.hero-slide.is-active .hero-content>*:nth-child(2){transition-delay:.4s}
+.hero-slide.is-active .hero-content>*:nth-child(3){transition-delay:.55s}
+.hero-slide.is-active .hero-content>*:nth-child(4){transition-delay:.7s}
+.hero-ui{position:absolute;z-index:3;left:0;right:0;bottom:2rem}
+.hero-ui .container{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.hero-dots{display:flex;gap:.55rem}
+.hero-dot{width:34px;height:5px;border-radius:99px;background:rgba(255,255,255,.35);transition:background var(--t-fast),width var(--t-fast)}
+.hero-dot.active{background:var(--c-gold);width:52px}
+.hero-arrows{display:flex;gap:.6rem}
+.hero-arrow{width:46px;height:46px;border-radius:50%;border:1.5px solid rgba(255,255,255,.4);color:#fff;display:grid;place-items:center;transition:background var(--t-fast),border-color var(--t-fast),transform var(--t-fast)}
+.hero-arrow:hover{background:var(--c-gold);border-color:var(--c-gold);color:#241703;transform:translateY(-2px)}
+/* ============ STATS ============ */
+.stats{background:var(--c-primary-deep);background-image:var(--pat-dark);border-block:1px solid var(--c-line-dark)}
+.stats .container{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;padding-block:var(--sp-8)}
+@media(min-width:900px){.stats .container{grid-template-columns:repeat(4,1fr)}}
+.stat{text-align:center;position:relative}
+.stat+.stat::before{content:"";position:absolute;left:-1rem;top:15%;bottom:15%;width:1px;background:var(--c-line-dark)}
+.stat:first-child::before{display:none}
+@media(max-width:899px){.stat:nth-child(3)::before{display:none}}
+.stat-num{font-family:var(--font-head);font-weight:700;font-size:clamp(2rem,4vw,2.9rem);color:var(--c-gold-light)}
+.stat-label{color:#AFC6BC;font-size:.86rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;margin-top:.3rem}
+/* ============ ABOUT ============ */
+.about-grid{display:grid;gap:var(--sp-8);align-items:center}
+@media(min-width:960px){.about-grid{grid-template-columns:1.05fr 1fr;gap:var(--sp-10)}}
+.about-media{position:relative}
+.about-media .frame{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-lg)}
+.about-media img{width:100%;aspect-ratio:5/4;object-fit:cover;transition:transform var(--t-slow)}
+.about-media:hover img{transform:scale(1.04)}
+.about-media::before{content:"";position:absolute;inset:18px -14px -14px 18px;border:2px solid var(--c-gold);border-radius:var(--r-lg);z-index:-1}
+.about-badge{position:absolute;left:-10px;bottom:26px;background:var(--c-primary);color:#fff;border-radius:var(--r-md);padding:.9rem 1.2rem;box-shadow:var(--sh-md);display:flex;gap:.8rem;align-items:center}
+.about-badge .icon{width:26px;height:26px;color:var(--c-gold-light)}
+.about-badge b{font-family:var(--font-head);font-size:1.05rem;display:block;line-height:1.1}
+.about-badge small{color:#BCCFC6;font-size:.75rem}
+.about-copy p{color:var(--c-muted);margin-top:1rem}
+.about-points{margin-top:1.4rem;display:grid;gap:.7rem}
+.about-points li{display:flex;gap:.7rem;align-items:flex-start;font-weight:600;color:var(--c-ink)}
+.about-points .icon{width:20px;height:20px;color:var(--c-primary);margin-top:2px}
+.mvv{margin-top:var(--sp-10);display:grid;gap:1.4rem}
+@media(min-width:900px){.mvv{grid-template-columns:repeat(3,1fr)}}
+.mvv-card{background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--r-md);padding:2rem 1.7rem;position:relative;overflow:hidden;transition:transform var(--t-base),box-shadow var(--t-base),border-color var(--t-base)}
+.mvv-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--c-gold),var(--c-primary));transform:scaleX(0);transform-origin:left;transition:transform var(--t-base)}
+.mvv-card:hover{transform:translateY(-6px);box-shadow:var(--sh-md);border-color:transparent}
+.mvv-card:hover::before{transform:scaleX(1)}
+.mvv-icon{width:52px;height:52px;border-radius:14px;background:var(--c-gold-soft);color:var(--c-primary-dark);display:grid;place-items:center;margin-bottom:1.2rem}
+.mvv-icon .icon{width:26px;height:26px}
+.mvv-card h3{font-size:1.15rem}
+.mvv-card .mvv-tag{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--c-gold);font-weight:700;display:block;margin-bottom:.4rem}
+.mvv-card p{color:var(--c-muted);font-size:.94rem;margin-top:.6rem}
+.mvv-card blockquote{margin-top:.8rem;padding:.9rem 1rem;background:var(--c-bg);border-left:3px solid var(--c-gold);border-radius:0 var(--r-sm) var(--r-sm) 0;font-size:.9rem;color:var(--c-muted);font-style:italic}
+.mvv-card cite{display:block;margin-top:.5rem;font-style:normal;font-weight:700;color:var(--c-primary);font-size:.8rem}
+/* ============ WORK / PROGRAMS ============ */
+.work{background:var(--c-surface)}
+.work-grid{display:grid;gap:1.4rem;grid-template-columns:1fr}
+@media(min-width:640px){.work-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1020px){.work-grid{grid-template-columns:repeat(3,1fr)}}
+.work-card{background:var(--c-bg);border:1px solid var(--c-line);border-radius:var(--r-md);padding:2rem 1.6rem;transition:transform var(--t-base),box-shadow var(--t-base),background var(--t-base);position:relative;overflow:hidden}
+.work-card:hover{transform:translateY(-6px);box-shadow:var(--sh-md);background:#fff}
+.work-card .mvv-icon{background:#E3EFE9;color:var(--c-primary)}
+.work-card:hover .mvv-icon{background:var(--c-primary);color:#fff}
+.work-card .mvv-icon{transition:background var(--t-base),color var(--t-base)}
+.work-card h3{font-size:1.08rem}
+.work-card p{color:var(--c-muted);font-size:.93rem;margin-top:.55rem}
+.work-card .num{position:absolute;top:1.2rem;right:1.4rem;font-family:var(--font-head);font-weight:700;font-size:1.5rem;color:var(--c-line)}
+/* ============ GAZA CAMPAIGN ============ */
+.gaza{position:relative;color:#fff;background:var(--c-primary-ink)}
+.gaza-bg{position:absolute;inset:0}
+.gaza-bg img{width:100%;height:100%;object-fit:cover;opacity:.34}
+.gaza-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,23,15,.55),rgba(4,23,15,.92)),var(--pat-dark)}
+.gaza .container{position:relative;z-index:2}
+.gaza-inner{display:grid;gap:var(--sp-8)}
+@media(min-width:960px){.gaza-inner{grid-template-columns:1.1fr .9fr;align-items:center;gap:var(--sp-10)}}
+.gaza blockquote{margin-top:1.6rem;padding:1.3rem 1.5rem;border-left:3px solid var(--c-gold);background:rgba(255,255,255,.06);border-radius:0 var(--r-md) var(--r-md) 0;font-size:1rem;color:#E4EEE9;font-style:italic}
+.gaza blockquote footer{margin-top:.7rem;font-style:normal;color:var(--c-gold-light);font-weight:700;font-size:.82rem;letter-spacing:.08em}
+.gaza-chips{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
+.gaza-chips li{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem 1rem;border:1px solid rgba(232,201,126,.4);border-radius:999px;font-size:.85rem;font-weight:600;color:var(--c-gold-light);background:rgba(232,201,126,.08);transition:background var(--t-fast),transform var(--t-fast)}
+.gaza-chips li:hover{background:rgba(232,201,126,.18);transform:translateY(-2px)}
+.gaza-chips .icon{width:15px;height:15px}
+.gaza-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(8px);border-radius:var(--r-lg);padding:2.2rem;box-shadow:var(--sh-lg)}
+.gaza-card h3{color:#fff;font-size:1.3rem}
+.gaza-card p{color:#C9DAD2;font-size:.94rem;margin-top:.7rem}
+.gaza-card .btn{width:100%;margin-top:1rem}
+.gaza-live{display:inline-flex;align-items:center;gap:.55rem;font-size:.78rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#FF9B9B}
+.gaza-live i{width:9px;height:9px;border-radius:50%;background:#FF6B6B;animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,107,107,.5)}70%{box-shadow:0 0 0 10px rgba(255,107,107,0)}100%{box-shadow:0 0 0 0 rgba(255,107,107,0)}}
+/* ============ DISASTERS TIMELINE ============ */
+.timeline{position:relative;margin-top:var(--sp-6);padding-left:1.4rem}
+.timeline::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--c-gold),var(--c-primary))}
+.tl-item{position:relative;padding:0 0 2.2rem 1.6rem}
+.tl-item::before{content:"";position:absolute;left:-1.4rem;top:6px;width:14px;height:14px;border-radius:50%;background:var(--c-gold);border:3px solid var(--c-bg);box-shadow:0 0 0 2px var(--c-gold)}
+.tl-date{font-family:var(--font-head);font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--c-primary)}
+.tl-item h3{font-size:1.1rem;margin-top:.3rem}
+.tl-item p{color:var(--c-muted);font-size:.94rem;margin-top:.4rem;max-width:640px}
+/* ============ GALLERY ============ */
+.gallery{background:var(--c-surface)}
+.g-filters{display:flex;flex-wrap:wrap;gap:.6rem;margin-bottom:var(--sp-6)}
+.g-filter{padding:.55rem 1.15rem;border-radius:999px;border:1.5px solid var(--c-line);font-family:var(--font-head);font-weight:600;font-size:.83rem;color:var(--c-muted);transition:all var(--t-fast)}
+.g-filter:hover{border-color:var(--c-primary);color:var(--c-primary)}
+.g-filter.active{background:var(--c-primary);border-color:var(--c-primary);color:#fff}
+.g-grid{display:grid;gap:1.2rem;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.g-grid{grid-template-columns:repeat(3,1fr)}}
+.g-item{position:relative;border-radius:var(--r-md);overflow:hidden;cursor:zoom-in;aspect-ratio:4/3;background:var(--c-primary-deep)}
+.g-item img{width:100%;height:100%;object-fit:cover;transition:transform var(--t-slow),opacity var(--t-base)}
+.g-item:hover img{transform:scale(1.06)}
+.g-item.hidden{display:none}
+.g-cap{position:absolute;inset:auto 0 0 0;padding:2.2rem 1.1rem 1rem;background:linear-gradient(transparent,rgba(4,23,15,.9));color:#fff;font-weight:600;font-size:.9rem;transform:translateY(12px);opacity:0;transition:transform var(--t-base),opacity var(--t-base)}
+.g-tag{display:inline-block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--c-gold-light);margin-bottom:.2rem}
+.g-item:hover .g-cap,.g-item:focus-visible .g-cap{transform:none;opacity:1}
+/* ============ VIDEOS ============ */
+.videos{background:var(--c-primary-deep);background-image:var(--pat-dark)}
+.v-grid{display:grid;gap:1.4rem}
+@media(min-width:900px){.v-grid{grid-template-columns:1.2fr .8fr;grid-template-rows:auto auto}}
+.v-card{position:relative;border-radius:var(--r-md);overflow:hidden;display:block;transition:transform var(--t-base),box-shadow var(--t-base)}
+.v-card:hover{transform:translateY(-5px);box-shadow:var(--sh-lg)}
+.v-card img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/9;transition:transform var(--t-slow)}
+.v-card:hover img{transform:scale(1.05)}
+.v-card.featured{grid-row:span 2}
+.v-card.featured img{height:100%;aspect-ratio:auto;min-height:320px}
+.v-play{position:absolute;top:50%;left:50%;translate:-50% -50%;width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.94);color:var(--c-primary);display:grid;place-items:center;transition:transform var(--t-fast),background var(--t-fast)}
+.v-card:hover .v-play{transform:scale(1.12);background:var(--c-gold);color:#241703}
+.v-play .icon{width:24px;height:24px;margin-left:3px}
+.v-meta{position:absolute;inset:auto 0 0 0;padding:2.6rem 1.2rem 1.1rem;background:linear-gradient(transparent,rgba(4,23,15,.92));color:#fff}
+.v-meta b{font-family:var(--font-head);font-size:.98rem;line-height:1.35;display:block}
+.v-meta small{color:var(--c-gold-light);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+/* ============ MEMBERSHIP ============ */
+.member-grid{display:grid;gap:1.2rem;grid-template-columns:repeat(2,1fr)}
+@media(min-width:960px){.member-grid{grid-template-columns:repeat(4,1fr)}}
+.m-card{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-md);padding:1.8rem 1.4rem;text-align:center;transition:transform var(--t-base),box-shadow var(--t-base),border-color var(--t-base)}
+.m-card:hover{transform:translateY(-6px);box-shadow:var(--sh-md);border-color:var(--c-gold)}
+.m-card .mvv-icon{margin:0 auto 1rem}
+.m-card h3{font-size:1rem}
+.m-card p{color:var(--c-muted);font-size:.85rem;margin-top:.4rem}
+.member-cta{margin-top:var(--sp-6);background:linear-gradient(120deg,var(--c-primary),var(--c-primary-dark));border-radius:var(--r-lg);padding:2.4rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.5rem;box-shadow:var(--sh-md);position:relative;overflow:hidden}
+.member-cta::after{content:"";position:absolute;inset:0;background:var(--pat-dark)}
+.member-cta>*{position:relative;z-index:1}
+.member-cta h3{color:#fff;font-size:clamp(1.2rem,2.4vw,1.7rem)}
+.member-cta p{color:#C9DAD2;margin-top:.4rem;max-width:520px}
+/* ============ VOLUNTEER BANNER ============ */
+.volunteer{position:relative;overflow:hidden;color:#fff}
+.volunteer img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.volunteer::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,23,15,.93) 20%,rgba(4,23,15,.55))}
+.volunteer .container{position:relative;z-index:2;padding-block:var(--sp-12)}
+.vol-inner{max-width:620px}
+.vol-inner h2{color:#fff;font-size:clamp(1.8rem,3.6vw,2.7rem)}
+.vol-inner p{color:#D9E5DF;margin-top:1rem}
+/* ============ DONATE ============ */
+.donate{background:var(--c-surface)}
+.don-grid{display:grid;gap:var(--sp-8)}
+@media(min-width:960px){.don-grid{grid-template-columns:.9fr 1.1fr;gap:var(--sp-10);align-items:start}}
+.trust-list{margin-top:1.6rem;display:grid;gap:.9rem}
+.trust-list li{display:flex;gap:.8rem;align-items:flex-start}
+.trust-list .icon{width:22px;height:22px;color:var(--c-gold);flex:none;margin-top:2px}
+.trust-list b{display:block}
+.trust-list small{color:var(--c-muted)}
+.bank-card{background:var(--c-primary-deep);background-image:var(--pat-dark);border-radius:var(--r-lg);padding:2.2rem;box-shadow:var(--sh-lg);color:#fff}
+.bank-card h3{color:#fff;display:flex;align-items:center;gap:.7rem;font-size:1.2rem}
+.bank-card h3 .icon{color:var(--c-gold-light);width:24px;height:24px}
+.bank-rows{margin-top:1.4rem;display:grid;gap:.2rem}
+.bank-row{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.85rem .2rem;border-bottom:1px dashed rgba(255,255,255,.16);font-size:.94rem}
+.bank-row:last-child{border-bottom:none}
+.bank-row .lbl{color:#AFC6BC;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.bank-row .val{font-weight:700;display:flex;align-items:center;gap:.6rem;word-break:break-all;text-align:right}
+.copy-btn{display:inline-flex;align-items:center;gap:.35rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;color:var(--c-gold-light);border:1px solid rgba(232,201,126,.45);padding:.35rem .7rem;border-radius:999px;transition:all var(--t-fast);flex:none}
+.copy-btn:hover{background:var(--c-gold);color:#241703;border-color:var(--c-gold)}
+.copy-btn .icon{width:13px;height:13px}
+.wa-card{margin-top:1.4rem;background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);padding:1.8rem;display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;justify-content:space-between;box-shadow:var(--sh-sm)}
+.wa-card b{font-family:var(--font-head)}
+.wa-card p{color:var(--c-muted);font-size:.9rem;margin-top:.2rem}
+.btn-wa{background:#1FAF5E;color:#fff}
+.btn-wa:hover{background:#178F4C;transform:translateY(-2px);box-shadow:var(--sh-md)}
+/* ============ FAQ ============ */
+.faq-wrap{max-width:820px;margin-inline:auto}
+.acc-item{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-md);margin-bottom:.9rem;overflow:hidden;transition:box-shadow var(--t-base)}
+.acc-item.open{box-shadow:var(--sh-sm);border-color:var(--c-gold)}
+.acc-btn{width:100%;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.25rem 1.4rem;font-family:var(--font-head);font-weight:600;font-size:1rem;text-align:left}
+.acc-btn .icon{transition:transform var(--t-base);color:var(--c-gold)}
+.acc-item.open .acc-btn .icon{transform:rotate(180deg)}
+.acc-panel{max-height:0;overflow:hidden;transition:max-height var(--t-base)}
+.acc-panel p{padding:0 1.4rem 1.3rem;color:var(--c-muted);font-size:.95rem}
+/* ============ CONTACT ============ */
+.contact{background:var(--c-surface)}
+.c-grid{display:grid;gap:var(--sp-8)}
+@media(min-width:960px){.c-grid{grid-template-columns:.85fr 1.15fr;gap:var(--sp-10)}}
+.c-cards{display:grid;gap:1rem}
+.c-card{display:flex;gap:1rem;align-items:flex-start;background:var(--c-bg);border:1px solid var(--c-line);border-radius:var(--r-md);padding:1.3rem;transition:transform var(--t-base),box-shadow var(--t-base)}
+.c-card:hover{transform:translateY(-4px);box-shadow:var(--sh-sm)}
+.c-card .mvv-icon{margin:0;width:46px;height:46px;border-radius:12px}
+.c-card b{font-family:var(--font-head);font-size:.95rem}
+.c-card a,.c-card span.txt{display:block;color:var(--c-muted);font-size:.9rem;margin-top:.15rem}
+.c-card a:hover{color:var(--c-primary)}
+.form-card{background:#fff;border:1px solid var(--c-line);border-radius:var(--r-lg);padding:2.2rem;box-shadow:var(--sh-sm)}
+.f-row{display:grid;gap:1rem}
+@media(min-width:640px){.f-row.two{grid-template-columns:1fr 1fr}}
+.f-group{margin-bottom:1.1rem}
+.f-group label{display:block;font-family:var(--font-head);font-weight:600;font-size:.85rem;margin-bottom:.45rem}
+.f-group label b{color:var(--c-gold)}
+.f-group input,.f-group select,.f-group textarea{width:100%;padding:.85rem 1rem;border:1.5px solid var(--c-line);border-radius:var(--r-sm);background:var(--c-bg);font:inherit;color:var(--c-ink);transition:border-color var(--t-fast),box-shadow var(--t-fast),background var(--t-fast)}
+.f-group input:focus,.f-group select:focus,.f-group textarea:focus{outline:none;border-color:var(--c-primary);background:#fff;box-shadow:0 0 0 4px rgba(14,107,78,.12)}
+.f-group .err{display:none;color:#C0392B;font-size:.78rem;margin-top:.35rem;font-weight:600}
+.f-group.invalid input,.f-group.invalid select,.f-group.invalid textarea{border-color:#C0392B}
+.f-group.invalid .err{display:block}
+/* ============ FOOTER ============ */
+.footer{background:var(--c-primary-ink);color:#BCCFC6;background-image:var(--pat-dark)}
+.footer-top{display:grid;gap:2.6rem;padding-block:var(--sp-10);grid-template-columns:1fr}
+@media(min-width:700px){.footer-top{grid-template-columns:1.2fr 1fr}}
+@media(min-width:1020px){.footer-top{grid-template-columns:1.4fr .8fr .9fr 1.1fr}}
+.footer h4{color:#fff;font-size:.95rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1.2rem}
+.footer h4::after{content:"";display:block;width:26px;height:2px;background:var(--c-gold);margin-top:.5rem}
+.footer p{font-size:.9rem}
+.f-links li{margin-bottom:.55rem}
+.f-links a{font-size:.9rem;display:inline-flex;align-items:center;gap:.5rem;transition:color var(--t-fast),transform var(--t-fast)}
+.f-links a:hover{color:var(--c-gold-light);transform:translateX(4px)}
+.f-links .icon{width:14px;height:14px;color:var(--c-gold)}
+.f-social{display:flex;gap:.7rem;margin-top:1.2rem}
+.f-social a{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.22);display:grid;place-items:center;color:#CFE0D8;transition:all var(--t-fast)}
+.f-social a:hover{background:var(--c-gold);border-color:var(--c-gold);color:#241703;transform:translateY(-3px)}
+.news-form{display:flex;margin-top:1rem;border:1px solid rgba(255,255,255,.22);border-radius:999px;overflow:hidden;background:rgba(255,255,255,.06)}
+.news-form input{flex:1;min-width:0;background:transparent;border:none;padding:.85rem 1.2rem;color:#fff;font:inherit;font-size:.9rem}
+.news-form input:focus{outline:none}
+.news-form input::placeholder{color:#8FA79C}
+.news-form button{background:var(--c-gold);color:#241703;padding:0 1.3rem;font-family:var(--font-head);font-weight:700;font-size:.85rem;transition:background var(--t-fast)}
+.news-form button:hover{background:#B8892C}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-block:1.3rem;display:flex;flex-wrap:wrap;gap:.8rem;justify-content:space-between;align-items:center;font-size:.82rem}
+.footer-bottom a:hover{color:var(--c-gold-light)}
+/* ============ MODAL / LIGHTBOX / TOAST ============ */
+.overlay{position:fixed;inset:0;z-index:150;background:rgba(4,23,15,.72);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:1.2rem}
+.overlay.open{display:flex}
+.modal{background:#fff;border-radius:var(--r-lg);max-width:760px;width:100%;max-height:88vh;overflow-y:auto;padding:2.4rem;position:relative;animation:modalIn .35s cubic-bezier(.22,.61,.36,1)}
+@keyframes modalIn{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+.modal-close,.lb-close{position:absolute;top:1rem;right:1rem;width:42px;height:42px;border-radius:50%;background:var(--c-bg);display:grid;place-items:center;transition:all var(--t-fast)}
+.modal-close:hover{background:var(--c-primary);color:#fff;transform:rotate(90deg)}
+.lb{background:transparent;box-shadow:none;max-width:1060px;padding:0;overflow:visible}
+.lb figure{position:relative}
+.lb img{border-radius:var(--r-md);max-height:74vh;width:auto;max-width:100%;margin-inline:auto;box-shadow:var(--sh-lg)}
+.lb figcaption{color:#D9E5DF;text-align:center;padding-top:1rem;font-size:.95rem}
+.lb figcaption .g-tag{display:block}
+.lb-nav{position:absolute;top:50%;translate:0 -50%;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;display:grid;place-items:center;transition:background var(--t-fast)}
+.lb-nav:hover{background:var(--c-gold);color:#241703}
+.lb-prev{left:-14px}.lb-next{right:-14px}
+.lb-close{top:-52px;right:0;background:rgba(255,255,255,.14);color:#fff}
+.lb-close:hover{background:var(--c-gold);color:#241703}
+@media(max-width:700px){.lb-prev{left:6px}.lb-next{right:6px}}
+#toasts{position:fixed;bottom:1.4rem;left:50%;translate:-50% 0;z-index:300;display:flex;flex-direction:column;gap:.6rem;align-items:center;width:min(480px,92%)}
+.toast{background:var(--c-primary-deep);color:#fff;border-left:4px solid var(--c-gold);border-radius:var(--r-sm);padding:.9rem 1.3rem;font-size:.9rem;font-weight:600;box-shadow:var(--sh-lg);display:flex;gap:.6rem;align-items:center;animation:toastIn .4s cubic-bezier(.22,.61,.36,1);width:100%}
+.toast .icon{color:var(--c-gold-light)}
+.toast.out{opacity:0;transform:translateY(10px);transition:all .3s}
+@keyframes toastIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.to-top{position:fixed;right:1.4rem;bottom:1.4rem;z-index:120;width:50px;height:50px;border-radius:50%;background:var(--c-primary);color:#fff;display:grid;place-items:center;box-shadow:var(--sh-md);opacity:0;visibility:hidden;transform:translateY(14px);transition:all var(--t-base)}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+.to-top:hover{background:var(--c-gold);color:#241703}
+/* ============ REDUCED MOTION ============ */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .js [data-reveal]{opacity:1;transform:none}
+  .hero-slide.is-active img{animation:none}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- SVG SPRITE -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-arr-r" viewBox="0 0 24 24"><path d="M4 12h16M13 5l7 7-7 7"/></symbol>
+  <symbol id="i-arr-l" viewBox="0 0 24 24"><path d="M20 12H4M11 5l-7 7 7 7"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 20V4M5 11l7-7 7 7"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19.5 13.6 12 21l-7.5-7.4A5.2 5.2 0 1 1 12 6.3a5.2 5.2 0 1 1 7.5 7.3z"/><path d="M7 12h3l1.5-2.5L14 14l1.5-2H18"/></symbol>
+  <symbol id="i-steth" viewBox="0 0 24 24"><path d="M5 3v6a5 5 0 0 0 10 0V3"/><path d="M10 14v2a6 6 0 0 0 12 0v-2"/><circle cx="22" cy="12" r="2"/></symbol>
+  <symbol id="i-cross" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></symbol>
+  <symbol id="i-tent" viewBox="0 0 24 24"><path d="M12 4 2 20h20z"/><path d="M12 12l-4 8M12 12l4 8"/></symbol>
+  <symbol id="i-hosp" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="13" rx="1"/><path d="M9 8V4h6v4M12 12v5M9.5 14.5h5"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M2 12h4l3-8 5 16 3-8h5"/></symbol>
+  <symbol id="i-mega" viewBox="0 0 24 24"><path d="M3 11v3l14 5V6z"/><path d="M17 8a4 4 0 0 1 0 9M7 15v5h3v-4"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17.5v.5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2zM22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 5a3.5 3.5 0 0 1 0 7M21.5 20a6.5 6.5 0 0 0-5-6.3"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.7s6.5 7 6.5 11.6a6.5 6.5 0 0 1-13 0C5.5 9.7 12 2.7 12 2.7z"/></symbol>
+  <symbol id="i-meal" viewBox="0 0 24 24"><path d="M4 13h16a8 8 0 0 1-16 0z"/><path d="M9 9c0-1.5 1-1.5 1-3M14 9c0-1.5 1-1.5 1-3"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+  <symbol id="i-wheat" viewBox="0 0 24 24"><path d="M12 22V8"/><path d="M12 8a4 4 0 0 0 4-4 4 4 0 0 0-4 4 4 4 0 0 0-4-4 4 4 0 0 0 4 4zM12 14a4 4 0 0 0 4-4 4 4 0 0 0-4 4 4 4 0 0 0-4-4 4 4 0 0 0 4 4zM12 20a4 4 0 0 0 4-4 4 4 0 0 0-4 4 4 4 0 0 0-4-4 4 4 0 0 0 4 4z"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-11 11M22 2 15 22l-4-9-9-4z"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M15 3h6v6M21 3l-9 9M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 12.5A8.5 8.5 0 1 1 11.5 4a7 7 0 0 0 8.5 8.5z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5 13.6c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.9-5.2c-.6-1-.9-2-.6-2.6.2-.5.8-1.3 1.3-1.4.3 0 .6 0 .8.4l.9 2c.1.3 0 .6-.2.8l-.6.7c-.2.2-.2.5 0 .8a9 9 0 0 0 3.6 3.2c.3.1.6.1.8-.1l.8-.9c.2-.3.5-.3.8-.2l2 1c.4.1.6.4.6.7 0 .2 0 .5-.2.9z"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4.5h-3c-2.5 0-4.5 2-4.5 4.5v2.5H7V15h2.5v6H13v-6h3l.5-3.5H13V9c0-.6.4-1 1-1z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M4 4l7.2 9.3L4.4 20h2.2l5.6-5.4L16.8 20H20l-7.5-9.7L18.9 4h-2.2l-5 4.9L8 4z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.2 6.8v.01"/></symbol>
+</svg>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <div class="tb-left">
+      <a href="tel:+923214244433"><svg class="icon"><use href="#i-phone"/></svg>+92 (321) 424 4433</a>
+      <a href="mailto:muslimmedical@gmail.com"><svg class="icon"><use href="#i-mail"/></svg>muslimmedical@gmail.com</a>
+    </div>
+    <div class="tb-right">
+      <span class="tb-badge"><svg class="icon"><use href="#i-check"/></svg>SECP Registered Non-Profit</span>
+      <div class="tb-social">
+        <a href="https://www.facebook.com/MMMPakofficial/" target="_blank" rel="noopener" aria-label="MMM on Facebook"><svg class="icon fill"><use href="#i-fb"/></svg></a>
+        <a href="https://x.com/MMMPakOfficial" target="_blank" rel="noopener" aria-label="MMM on X"><svg class="icon fill"><use href="#i-x"/></svg></a>
+        <a href="https://www.instagram.com/muslimmedicalmission/" target="_blank" rel="noopener" aria-label="MMM on Instagram"><svg class="icon"><use href="#i-ig"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="Muslim Medical Mission — home">
+      <svg class="brand-logo" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#0E6B4E"/><path d="M29 10a14 14 0 1 0 9 24 15 15 0 0 1-9-24z" fill="#E8C97E"/><path d="M17 24h4l2-5 3 9 2-4h4" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="brand-text"><span class="brand-name">Muslim Medical Mission</span><span class="brand-tag">Wisdom · Action · Service</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <div class="has-drop">
+        <button class="nav-link drop-btn" aria-haspopup="true" aria-expanded="false">Our Work <svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="dropdown">
+          <a href="#work"><svg class="icon"><use href="#i-steth"/></svg>Medical Programs</a>
+          <a href="#gaza"><svg class="icon"><use href="#i-heart"/></svg>Gaza Relief Mission</a>
+          <a href="#disasters"><svg class="icon"><use href="#i-alert"/></svg>Disaster Response</a>
+        </div>
+      </div>
+      <div class="has-drop">
+        <button class="nav-link drop-btn" aria-haspopup="true" aria-expanded="false">Media <svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="dropdown">
+          <a href="#gallery"><svg class="icon"><use href="#i-layers"/></svg>Gallery</a>
+          <a href="#videos"><svg class="icon"><use href="#i-play"/></svg>Videos</a>
+        </div>
+      </div>
+      <a class="nav-link" href="#membership">Membership</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="btn btn-gold nav-cta" href="#donate"><svg class="icon fill"><use href="#i-heart"/></svg>Donate Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="drawer" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav aria-label="Mobile">
+    <a class="nav-m-link" href="#home">Home</a>
+    <a class="nav-m-link" href="#about">About</a>
+    <button class="nav-m-link sub-toggle" aria-expanded="false">Our Work <svg class="icon"><use href="#i-chev"/></svg></button>
+    <div class="sub">
+      <a href="#work"><svg class="icon"><use href="#i-steth"/></svg>Medical Programs</a>
+      <a href="#gaza"><svg class="icon"><use href="#i-heart"/></svg>Gaza Relief Mission</a>
+      <a href="#disasters"><svg class="icon"><use href="#i-alert"/></svg>Disaster Response</a>
+    </div>
+    <button class="nav-m-link sub-toggle" aria-expanded="false">Media <svg class="icon"><use href="#i-chev"/></svg></button>
+    <div class="sub">
+      <a href="#gallery"><svg class="icon"><use href="#i-layers"/></svg>Gallery</a>
+      <a href="#videos"><svg class="icon"><use href="#i-play"/></svg>Videos</a>
+    </div>
+    <a class="nav-m-link" href="#membership">Membership</a>
+    <a class="nav-m-link" href="#contact">Contact</a>
+    <div class="drawer-cta">
+      <a class="btn btn-gold" href="#donate"><svg class="icon fill"><use href="#i-heart"/></svg>Donate Now</a>
+      <a class="btn btn-outline" href="#membership">Become a Member</a>
+    </div>
+  </nav>
+</div>
+
+<main id="main">
+<h1 class="sr-only">Muslim Medical Mission Pakistan — Wisdom, Action, Service for Allah</h1>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home" aria-roledescription="carousel" aria-label="MMM highlights">
+  <div class="hero-slide is-active">
+    <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1ce0cecb3-613b-4258-a0cc-09562611b9e1.png" alt="A doctor examines a young child at a free MMM medical camp in Pakistan" width="1024" height="1024" fetchpriority="high">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-kicker">Wisdom · Action · Service</p>
+      <h2 class="hero-title">Healing Humanity in the Light of <em>Quran &amp; Sunnah</em></h2>
+      <p class="hero-text">Muslim Medical Mission is a global network of Muslim healthcare professionals providing free medical camps, welfare clinics and humanitarian aid — without discrimination of race, religion or region.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#donate"><svg class="icon fill"><use href="#i-heart"/></svg>Donate Now</a>
+        <a class="btn btn-ghost" href="#membership">Become a Member <svg class="icon arr"><use href="#i-arr-r"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-slide">
+    <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a04921ba-a1be-4994-9301-629249d79310.png" alt="A volunteer hands stacks of fresh warm bread to smiling children in a refugee camp" width="1024" height="1024" loading="lazy">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-kicker">Gaza Relief Mission — Ongoing</p>
+      <h2 class="hero-title">Every Meal, Every Drop <em>Brings Hope</em></h2>
+      <p class="hero-text">Hot bread, cooked meals, Ramzan rations, clean water and winter packages — our teams continue to serve displaced families in Gaza, Alhamdulillah.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#gaza">Support Gaza Relief</a>
+        <a class="btn btn-ghost" href="#videos"><svg class="icon fill"><use href="#i-play"/></svg>Field Videos</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-slide">
+    <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/179161f07-15b7-46af-a5bb-bb2c256befe1.png" alt="MMM medical team setting up a mobile clinic in a remote mountain village" width="1024" height="1024" loading="lazy">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-kicker">Disaster Response Since 2005</p>
+      <h2 class="hero-title">First to Respond When <em>Disaster Strikes</em></h2>
+      <p class="hero-text">From the 2005 earthquake to the Chitral floods and Tharparkar drought — MMM teams deliver relief operations, welfare clinics and surgical camps wherever they are needed.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="#work">Explore Our Work <svg class="icon arr"><use href="#i-arr-r"/></svg></a>
+        <a class="btn btn-ghost" href="#membership">Volunteer With Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-ui">
+    <div class="container">
+      <div class="hero-dots" id="heroDots" role="tablist" aria-label="Hero slides"></div>
+      <div class="hero-arrows">
+        <button class="hero-arrow" id="heroPrev" aria-label="Previous slide"><svg class="icon"><use href="#i-arr-l"/></svg></button>
+        <button class="hero-arrow" id="heroNext" aria-label="Next slide"><svg class="icon"><use href="#i-arr-r"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats on-dark" aria-label="MMM at a glance">
+  <div class="container">
+    <div class="stat" data-reveal><div class="stat-num" data-count="2005" data-start="1950">2005</div><div class="stat-label">Founded After the Earthquake</div></div>
+    <div class="stat" data-reveal><div class="stat-num" data-count="20" data-suffix="+">20+</div><div class="stat-label">Years of Service</div></div>
+    <div class="stat" data-reveal><div class="stat-num" data-count="6">6</div><div class="stat-label">Gaza Relief Programs</div></div>
+    <div class="stat" data-reveal><div class="stat-num" data-count="4">4</div><div class="stat-label">Membership Categories</div></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-media" data-reveal="left">
+        <div class="frame"><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/16aea154e-260d-41dc-9150-a0aa40751eff.png" alt="Muslim healthcare professionals in discussion during an MMM knowledge-sharing session" width="1024" height="1024" loading="lazy"></div>
+        <div class="about-badge"><svg class="icon"><use href="#i-moon"/></svg><span><b>Since 2005</b><small>Born from the 2005 earthquake response</small></span></div>
+      </div>
+      <div class="about-copy" data-reveal="right">
+        <p class="kicker">Who We Are</p>
+        <h2 class="sec-title">A Brotherhood of Healthcare Professionals in Service of Humanity</h2>
+        <p>Muslim Medical Mission began as a group of Muslim healthcare professionals working on shared concerns — free medical camping, free health-care clinics and health-awareness seminars — with a core mission of promoting a better understanding of Islam and medical practice within the framework of Islam.</p>
+        <p>When the devastating earthquake struck northern Pakistan in October 2005, it became the inciting stimulus that organised these professionals into <strong>Muslim Medical Mission (MMM)</strong>. Today we impart educational and research programs, training sessions, seminars, symposia and specialist lectures — alongside humanitarian services such as relief operations, welfare clinics and surgical camps for those in need, without discrimination of race &amp; religion.</p>
+        <ul class="about-points">
+          <li><svg class="icon"><use href="#i-check"/></svg>Evidence-based medical &amp; religious practice</li>
+          <li><svg class="icon"><use href="#i-check"/></svg>Service under the guidance of the Quran &amp; Sunnah</li>
+          <li><svg class="icon"><use href="#i-check"/></svg>SECP-registered not-for-profit organization</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mvv">
+      <article class="mvv-card" data-reveal>
+        <div class="mvv-icon"><svg class="icon"><use href="#i-pulse"/></svg></div>
+        <span class="mvv-tag">Our Mission</span>
+        <h3>“Evidence-Based Professionalism”</h3>
+        <p>To become dynamic Muslim health-care professionals who pioneer social change by acquiring knowledge and wisdom, and practicing Dawah with acumen and convincing communication — orienting health education with Islamic values and their application in patient care.</p>
+      </article>
+      <article class="mvv-card" data-reveal>
+        <div class="mvv-icon"><svg class="icon"><use href="#i-moon"/></svg></div>
+        <span class="mvv-tag">Our Vision</span>
+        <h3>“Sibghat-Ullah”</h3>
+        <blockquote>“Know therefore that there is no god but Allah, and ask forgiveness for your fault and for the believing men and believing women.”<cite>— Surah Muhammad, 47:19</cite></blockquote>
+        <p>In our professional, moral and spiritual progress, we seek Allah’s help and guidance to develop the ability to achieve the shades of ‘Sibghat-Ullah’.</p>
+      </article>
+      <article class="mvv-card" data-reveal>
+        <div class="mvv-icon"><svg class="icon"><use href="#i-heart"/></svg></div>
+        <span class="mvv-tag">Our Means</span>
+        <h3>Service Without Discrimination</h3>
+        <p>Service to humanity without discrimination of gender or genetics, race or religion, geography or generation, time or era. Human-resource development for peace and disaster — developing and practicing medical science and technology for peace.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUR WORK ============ -->
+<section class="section work" id="work">
+  <div class="container">
+    <div class="sec-head center" data-reveal>
+      <p class="kicker">What We Do</p>
+      <h2 class="sec-title">Medical &amp; Humanitarian Programs</h2>
+      <p class="sec-sub">From welfare clinics in remote villages to surgical camps and disaster relief — every program is delivered by healthcare professionals, for the sake of Allah alone.</p>
+    </div>
+    <div class="work-grid">
+      <article class="work-card" data-reveal><span class="num">01</span><div class="mvv-icon"><svg class="icon"><use href="#i-tent"/></svg></div><h3>Free Medical Camps</h3><p>Free medical camping for underserved communities — from Tharparkar to disaster-hit valleys — bringing doctors, diagnosis and essential medicines to the doorstep of those in need.</p></article>
+      <article class="work-card" data-reveal><span class="num">02</span><div class="mvv-icon"><svg class="icon"><use href="#i-hosp"/></svg></div><h3>Welfare Clinics</h3><p>Community welfare clinics offering accessible, compassionate health care guided by evidence-based practice and Islamic ethics of patient care.</p></article>
+      <article class="work-card" data-reveal><span class="num">03</span><div class="mvv-icon"><svg class="icon"><use href="#i-steth"/></svg></div><h3>Surgical Camps</h3><p>Organised surgical camps that restore health and dignity for patients who cannot afford or access operative care.</p></article>
+      <article class="work-card" data-reveal><span class="num">04</span><div class="mvv-icon"><svg class="icon"><use href="#i-mega"/></svg></div><h3>Health Awareness Seminars</h3><p>Public health-awareness seminars and programs for the general public — empowering families with knowledge of health and well-being.</p></article>
+      <article class="work-card" data-reveal><span class="num">05</span><div class="mvv-icon"><svg class="icon"><use href="#i-alert"/></svg></div><h3>Disaster &amp; Emergency Relief</h3><p>Rapid relief operations for earthquakes, floods, droughts and epidemics — food, shelter support and medical aid, without discrimination.</p></article>
+      <article class="work-card" data-reveal><span class="num">06</span><div class="mvv-icon"><svg class="icon"><use href="#i-book"/></svg></div><h3>Education &amp; Training</h3><p>Training sessions, seminars, symposia and specialist lectures for healthcare professionals of all medical fields — bridging medical practice and Islamic values.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GAZA CAMPAIGN ============ -->
+<section class="section gaza on-dark" id="gaza">
+  <div class="gaza-bg"><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1b627f944-aa15-43a4-a80e-7fa3e3a94f79.png" alt="" aria-hidden="true" width="1024" height="1024" loading="lazy"></div>
+  <div class="container">
+    <div class="gaza-inner">
+      <div data-reveal="left">
+        <p class="gaza-live"><i></i>Ongoing Humanitarian Mission</p>
+        <h2 class="sec-title" style="margin-top:.8rem">Gaza Relief Mission</h2>
+        <p class="sec-sub">Muslim Medical Mission Pakistan continues to stand with displaced families in Gaza — feeding hundreds of families and children in refugee camps, schools and temporary shelters on a regular basis, and providing free medical services for the people of Gaza.</p>
+        <ul class="gaza-chips">
+          <li><svg class="icon"><use href="#i-wheat"/></svg>Hot Bread Distribution</li>
+          <li><svg class="icon"><use href="#i-meal"/></svg>Feeding Families</li>
+          <li><svg class="icon"><use href="#i-layers"/></svg>Ramzan Rations</li>
+          <li><svg class="icon"><use href="#i-drop"/></svg>Water for Life</li>
+          <li><svg class="icon"><use href="#i-layers"/></svg>Winter Packages</li>
+          <li><svg class="icon"><use href="#i-steth"/></svg>Medical Services</li>
+        </ul>
+        <blockquote>“Alhamdulillah!! Teams have started the distribution of Ramzan food parcels for people living in refugee camps in different areas of Gaza. This may be a very small thing for us, but is very essential for people living in famine.”<footer>— Muslim Medical Mission Pakistan, Field Update</footer></blockquote>
+      </div>
+      <div class="gaza-card" data-reveal="right">
+        <h3>Be the Reason a Family Eats Tonight</h3>
+        <p>Your donation becomes hot bread at a tent door, a cooked meal for children, clean water and a warm blanket in winter. May Allah Almighty accept from those who contributed. Aameen.</p>
+        <a class="btn btn-gold" href="#donate"><svg class="icon fill"><use href="#i-heart"/></svg>Support This Mission</a>
+        <a class="btn btn-wa" href="https://wa.me/923214244433" target="_blank" rel="noopener"><svg class="icon fill"><use href="#i-wa"/></svg>Donate via WhatsApp</a>
+        <a class="btn btn-ghost" href="#videos"><svg class="icon fill"><use href="#i-play"/></svg>Watch Field Updates</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISASTERS TIMELINE ============ -->
+<section class="section" id="disasters">
+  <div class="container">
+    <div class="sec-head" data-reveal>
+      <p class="kicker">Services in Disasters</p>
+      <h2 class="sec-title">When Calamity Strikes, We Answer</h2>
+      <p class="sec-sub">Earthquakes, windstorms, floods and epidemics strike anywhere on earth without warning. Since its inception, Muslim Medical Mission has always tried to help those affected by such disasters — irrespective of any discrimination.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item" data-reveal><span class="tl-date">October 2005</span><h3>Pakistan Earthquake — The Founding Response</h3><p>The devastating earthquake in northern Pakistan became the inciting stimulus that organised Muslim healthcare professionals into Muslim Medical Mission, mobilising medical relief for survivors.</p></div>
+      <div class="tl-item" data-reveal><span class="tl-date">2015</span><h3>Chitral Flood Relief</h3><p>MMM teams responded to flood-affected families in Chitral with relief support and free medical care in the aftermath of the disaster.</p></div>
+      <div class="tl-item" data-reveal><span class="tl-date">Ongoing</span><h3>Tharparkar Drought &amp; Disease</h3><p>As drought and disease hit the Tharparkar area, MMM continues to serve affected families with food distribution and free medical camps.</p></div>
+      <div class="tl-item" data-reveal><span class="tl-date">Ongoing</span><h3>Gaza Relief Mission</h3><p>Hot meals, fresh bread, Ramzan rations, clean water, winter blankets and free medical services for displaced families living in refugee camps.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="sec-head center" data-reveal>
+      <p class="kicker">From the Field</p>
+      <h2 class="sec-title">Relief Mission Gallery</h2>
+      <p class="sec-sub">Authentic moments from our relief missions — every image is a du’a from the field.</p>
+    </div>
+    <div class="g-filters" role="group" aria-label="Gallery filters" data-reveal>
+      <button class="g-filter active" data-filter="all">All</button>
+      <button class="g-filter" data-filter="ramzan">Ramzan Ration</button>
+      <button class="g-filter" data-filter="medical">Medical Services</button>
+      <button class="g-filter" data-filter="water">Water for Life</button>
+      <button class="g-filter" data-filter="feeding">Feeding Families</button>
+      <button class="g-filter" data-filter="winter">Winter Package</button>
+      <button class="g-filter" data-filter="meals">Meal Distribution</button>
+    </div>
+    <div class="g-grid" id="gGrid">
+      <button class="g-item" data-cat="ramzan" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1764f56ca-a360-452e-aab0-b7d2a7f91c95.png" data-cap="Volunteers packing Ramzan food parcels for families in refugee camps."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1764f56ca-a360-452e-aab0-b7d2a7f91c95.png" alt="Volunteers packing Ramadan ration bags with rice, flour and oil" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Ramzan Ration</span>Ramzan food parcels prepared for refugee camps</span></button>
+      <button class="g-item" data-cat="medical" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/107a9fa99-20f0-4f23-9edb-2b12ce9cc327.png" data-cap="MMM provides free medical services — a doctor checks an elder’s blood pressure at a camp."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/107a9fa99-20f0-4f23-9edb-2b12ce9cc327.png" alt="A doctor measures the blood pressure of an elderly man at a free medical camp" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Medical Services</span>Free medical check-up at a relief camp</span></button>
+      <button class="g-item" data-cat="water" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a48f9e55-76f7-488a-8b9a-0e40415052a8.png" data-cap="Every drop brings hope — clean water distribution for camp children."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a48f9e55-76f7-488a-8b9a-0e40415052a8.png" alt="Children joyfully filling water containers at a clean water distribution point" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Water for Life</span>Clean water reaches children at the camp</span></button>
+      <button class="g-item" data-cat="feeding" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/159826a6d-161c-4bd5-882e-ddad90831624.png" data-cap="Feeding hundreds of families and kids in schools and temporary shelters on a regular basis."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/159826a6d-161c-4bd5-882e-ddad90831624.png" alt="Volunteers serving hot meals on trays to families seated inside an aid tent" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Feeding Families</span>Hot meals served inside the camp tent</span></button>
+      <button class="g-item" data-cat="winter" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1605c7e1b-22e5-4608-af86-4892905552.png" data-cap="Alhamdulillah! Blankets distribution amongst refugee families in cold winter weather."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1605c7e1b-22e5-4608-af86-4892905552.png" alt="A volunteer hands folded warm blankets to a mother and children in a winter camp" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Winter Package</span>Blankets for refugee families in winter</span></button>
+      <button class="g-item" data-cat="meals" data-reveal data-full="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1b604ea10-882a-466a-8d27-84ad39740853.png" data-cap="Meal distribution continues at the distribution table as evening falls over the camp."><img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1b604ea10-882a-466a-8d27-84ad39740853.png" alt="A long line of camp residents receiving packed meal boxes from volunteers" width="1024" height="1024" loading="lazy"><span class="g-cap"><span class="g-tag">Meal Distribution</span>Packed meals handed to camp residents</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEOS ============ -->
+<section class="section videos on-dark" id="videos">
+  <div class="container">
+    <div class="sec-head" data-reveal>
+      <p class="kicker">Latest From the Field</p>
+      <h2 class="sec-title">Watch Our Relief Missions</h2>
+      <p class="sec-sub">Field updates from our ongoing missions. Tap any video to watch on our official channels.</p>
+    </div>
+    <div class="v-grid">
+      <a class="v-card featured" href="https://www.facebook.com/MMMPakofficial/videos/" target="_blank" rel="noopener" data-reveal aria-label="Watch: Hot bread continues to reach Gaza’s tents (opens Facebook videos)">
+        <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a04921ba-a1be-4994-9301-629249d79310.png" alt="Volunteer handing fresh warm bread to children in a Gaza camp" width="1024" height="1024" loading="lazy">
+        <span class="v-play"><svg class="icon fill"><use href="#i-play"/></svg></span>
+        <span class="v-meta"><small>Featured · Gaza Relief</small><b>Hot Bread Continues to Reach Gaza’s Tents 🇵🇸❤️</b></span>
+      </a>
+      <a class="v-card" href="https://www.facebook.com/MMMPakofficial/videos/" target="_blank" rel="noopener" data-reveal aria-label="Watch: Every drop brings hope — Gaza water project (opens Facebook videos)">
+        <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a48f9e55-76f7-488a-8b9a-0e40415052a8.png" alt="Children collecting clean water at a distribution tap" width="1024" height="1024" loading="lazy">
+        <span class="v-play"><svg class="icon fill"><use href="#i-play"/></svg></span>
+        <span class="v-meta"><small>Water for Life</small><b>Every Drop Brings Hope | Gaza Water Project 💧</b></span>
+      </a>
+      <a class="v-card" href="https://www.facebook.com/MMMPakofficial/videos/" target="_blank" rel="noopener" data-reveal aria-label="Watch: providing hot meals to families in Gaza (opens Facebook videos)">
+        <img src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/159826a6d-161c-4bd5-882e-ddad90831624.png" alt="Volunteers serving hot meals to families in an aid tent" width="1024" height="1024" loading="lazy">
+        <span class="v-play"><svg class="icon fill"><use href="#i-play"/></svg></span>
+        <span class="v-meta"><small>Feeding Families</small><b>Providing Hot Meals to Families in Gaza | Humanitarian Relief</b></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEMBERSHIP ============ -->
+<section class="section" id="membership">
+  <div class="container">
+    <div class="sec-head center" data-reveal>
+      <p class="kicker">Get Involved</p>
+      <h2 class="sec-title">Join a Network of Muslim Healthcare Professionals</h2>
+      <p class="sec-sub">MMM provides accessible forums wherein healthcare professionals share knowledge and serve humanity. Membership is open to four categories:</p>
+    </div>
+    <div class="member-grid">
+      <article class="m-card" data-reveal><div class="mvv-icon"><svg class="icon"><use href="#i-steth"/></svg></div><h3>Doctor</h3><p>Licensed medical practitioners of all fields.</p></article>
+      <article class="m-card" data-reveal><div class="mvv-icon"><svg class="icon"><use href="#i-cross"/></svg></div><h3>Allied Health Professional</h3><p>Nurses, pharmacists, technicians &amp; allied disciplines.</p></article>
+      <article class="m-card" data-reveal><div class="mvv-icon"><svg class="icon"><use href="#i-book"/></svg></div><h3>Medical Student</h3><p>Future doctors in training, ready to serve.</p></article>
+      <article class="m-card" data-reveal><div class="mvv-icon"><svg class="icon"><use href="#i-users"/></svg></div><h3>Allied Health Student</h3><p>Students of allied health disciplines.</p></article>
+    </div>
+    <div class="member-cta" data-reveal>
+      <div>
+        <h3>Your Skills Can Save Lives</h3>
+        <p>Bridge medical practice with Islamic values — join training sessions, seminars, symposia, welfare clinics and relief missions.</p>
+      </div>
+      <div style="display:flex;gap:.9rem;flex-wrap:wrap">
+        <button class="btn btn-gold" id="openMember">Apply for Membership <svg class="icon arr"><use href="#i-arr-r"/></svg></button>
+        <a class="btn btn-ghost" href="https://wa.me/923214244433" target="_blank" rel="noopener"><svg class="icon fill"><use href="#i-wa"/></svg>Ask on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VOLUNTEER BANNER ============ -->
+<section class="volunteer" aria-label="Volunteer call to action">
+  <img class="bg" src="https://image.qwenlm.ai/public_source/9af03802-bba5-41e7-a5a2-ff3229a2d90c/1a5d9dbcc-85dd-4ea9-9c84-c9e8290c070c.png" alt="" aria-hidden="true" width="1024" height="1024" loading="lazy">
+  <div class="container">
+    <div class="vol-inner" data-reveal>
+      <p class="kicker" style="color:var(--c-gold-light)">Volunteer With MMM</p>
+      <h2>Healing is a Team Effort. Join the Team.</h2>
+      <p>Whether you hold a stethoscope, a spreadsheet or a spare weekend — there is a place for you in the mission. Serve at medical camps, relief distributions and awareness seminars.</p>
+      <div class="hero-cta">
+        <button class="btn btn-gold open-member-alt">Become a Volunteer</button>
+        <a class="btn btn-ghost" href="#contact">Contact Us <svg class="icon arr"><use href="#i-arr-r"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DONATE ============ -->
+<section class="section donate" id="donate">
+  <div class="container">
+    <div class="don-grid">
+      <div data-reveal="left">
+        <p class="kicker">Donate</p>
+        <h2 class="sec-title">Your Sadaqah, Delivered with Amanah</h2>
+        <p class="sec-sub" style="margin-top:1rem">You can deposit your amount directly into our official bank account, or donate by check or cash through WhatsApp.</p>
+        <ul class="trust-list">
+          <li><svg class="icon"><use href="#i-check"/></svg><span><b>Registered Non-Profit</b><small>Muslim Medical Mission is a not-for-profit organization registered under SECP.</small></span></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><span><b>Without Discrimination</b><small>Your support serves humanity regardless of race, religion, geography or generation.</small></span></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><span><b>Professionally Delivered</b><small>Relief is delivered by healthcare professionals on the ground — in Pakistan and Gaza.</small></span></li>
+        </ul>
+      </div>
+      <div data-reveal="right">
+        <div class="bank-card">
+          <h3><svg class="icon"><use href="#i-hosp"/></svg>Bank Transfer Details</h3>
+          <div class="bank-rows">
+            <div class="bank-row"><span class="lbl">Title of Account</span><span class="val">Muslim Medical Mission Foundation</span></div>
+            <div class="bank-row"><span class="lbl">Name of Bank</span><span class="val">United Bank Limited (UBL)</span></div>
+            <div class="bank-row"><span class="lbl">Account Number</span><span class="val">0635338617189 <button class="copy-btn" data-copy="0635338617189" aria-label="Copy account number"><svg class="icon"><use href="#i-copy"/></svg>Copy</button></span></div>
+            <div class="bank-row"><span class="lbl">IBAN</span><span class="val">PK50UNIL0109000338617189 <button class="copy-btn" data-copy="PK50UNIL0109000338617189" aria-label="Copy IBAN"><svg class="icon"><use href="#i-copy"/></svg>Copy</button></span></div>
+            <div class="bank-row"><span class="lbl">Branch Code</span><span class="val">0635</span></div>
+            <div class="bank-row"><span class="lbl">Branch</span><span class="val">C Block Bank Square Market, Model Town, Lahore</span></div>
+          </div>
+        </div>
+        <div class="wa-card">
+          <div>
+            <b>Check or Cash via WhatsApp</b>
+            <p>To donate by check or cash, message us at +92 (321) 424 4433.</p>
+          </div>
+          <a class="btn btn-wa" href="https://wa.me/923214244433" target="_blank" rel="noopener"><svg class="icon fill"><use href="#i-wa"/></svg>WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="sec-head center" data-reveal>
+      <p class="kicker">Questions</p>
+      <h2 class="sec-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-wrap">
+      <div class="acc-item" data-reveal>
+        <button class="acc-btn" aria-expanded="false">What is Muslim Medical Mission?<svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="acc-panel"><p>MMM is a SECP-registered not-for-profit organization, founded after the October 2005 earthquake by a group of Muslim healthcare professionals. It is a global network of healthcare professionals serving through medical relief and humanitarian aid — free medical camps, welfare clinics, surgical camps, health-awareness seminars, education and disaster relief.</p></div>
+      </div>
+      <div class="acc-item" data-reveal>
+        <button class="acc-btn" aria-expanded="false">How can I donate?<svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="acc-panel"><p>You can transfer directly to our United Bank Limited account (Title: Muslim Medical Mission Foundation, Account # 0635338617189, IBAN PK50UNIL0109000338617189, Branch Code 0635, Model Town Lahore). To donate by check or cash, contact us on WhatsApp at +92 (321) 424 4433.</p></div>
+      </div>
+      <div class="acc-item" data-reveal>
+        <button class="acc-btn" aria-expanded="false">Who can become a member?<svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="acc-panel"><p>Membership is open to four categories: Doctors, Allied Health Professionals, Medical Students and Allied Health Students. Use the “Apply for Membership” form on this page or contact us on WhatsApp.</p></div>
+      </div>
+      <div class="acc-item" data-reveal>
+        <button class="acc-btn" aria-expanded="false">What does MMM do during disasters?<svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="acc-panel"><p>MMM responds with relief operations, welfare clinics, surgical camps, free medical camps, and food &amp; water distribution — as during the 2005 earthquake, the Chitral floods of 2015, the Tharparkar drought, and the ongoing Gaza Relief Mission — without any discrimination of race or religion.</p></div>
+      </div>
+      <div class="acc-item" data-reveal>
+        <button class="acc-btn" aria-expanded="false">Where is MMM based?<svg class="icon"><use href="#i-chev"/></svg></button>
+        <div class="acc-panel"><p>Muslim Medical Mission is based in Lahore, Pakistan, with relief activities across Pakistan and an ongoing humanitarian mission serving displaced families in Gaza.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="sec-head" data-reveal>
+      <p class="kicker">Get in Touch Today</p>
+      <h2 class="sec-title">We’re Here to Help</h2>
+    </div>
+    <div class="c-grid">
+      <div class="c-cards" data-reveal="left">
+        <div class="c-card"><div class="mvv-icon"><svg class="icon"><use href="#i-phone"/></svg></div><div><b>Give Us a Call</b><a href="tel:+923214244433">+92 (321) 424 4433</a><a href="https://wa.me/923214244433" target="_blank" rel="noopener">WhatsApp the same number</a></div></div>
+        <div class="c-card"><div class="mvv-icon"><svg class="icon"><use href="#i-mail"/></svg></div><div><b>Send Us an Email</b><a href="mailto:muslimmedical@gmail.com">muslimmedical@gmail.com</a><a href="mailto:medicalmissionpak@gmail.com">medicalmissionpak@gmail.com</a></div></div>
+        <div class="c-card"><div class="mvv-icon"><svg class="icon"><use href="#i-pin"/></svg></div><div><b>Our Base</b><span class="txt">Lahore, Pakistan</span><span class="txt">Model Town, Lahore (UBL Branch)</span></div></div>
+        <div class="c-card"><div class="mvv-icon"><svg class="icon"><use href="#i-cal"/></svg></div><div><b>Follow Our Work</b><a href="https://www.facebook.com/MMMPakofficial/" target="_blank" rel="noopener">Facebook · @MMMPakofficial</a><a href="https://www.instagram.com/muslimmedicalmission/" target="_blank" rel="noopener">Instagram · @muslimmedicalmission</a></div></div>
+      </div>
+      <form class="form-card" id="contactForm" novalidate data-reveal="right">
+        <h3 style="margin-bottom:1.4rem">Send Us a Message</h3>
+        <div class="f-row two">
+          <div class="f-group"><label for="cf-name">Full Name <b>*</b></label><input id="cf-name" name="name" type="text" required autocomplete="name"><span class="err">Please enter your name.</span></div>
+          <div class="f-group"><label for="cf-email">Email <b>*</b></label><input id="cf-email" name="email" type="email" required autocomplete="email"><span class="err">Please enter a valid email address.</span></div>
+        </div>
+        <div class="f-group"><label for="cf-sub">Subject <b>*</b></label><input id="cf-sub" name="subject" type="text" required><span class="err">Please add a subject.</span></div>
+        <div class="f-group"><label for="cf-msg">Message <b>*</b></label><textarea id="cf-msg" name="message" rows="5" required></textarea><span class="err">Please write your message.</span></div>
+        <button class="btn btn-primary" type="submit"><svg class="icon"><use href="#i-send"/></svg>Submit Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="#home" style="margin-bottom:1.2rem">
+          <svg class="brand-logo" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#0E6B4E"/><path d="M29 10a14 14 0 1 0 9 24 15 15 0 0 1-9-24z" fill="#E8C97E"/><path d="M17 24h4l2-5 3 9 2-4h4" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="brand-text"><span class="brand-name" style="color:#fff">Muslim Medical Mission</span><span class="brand-tag">Wisdom · Action · Service</span></span>
+        </a>
+        <p>A global network of Muslim healthcare professionals serving through medical relief and humanitarian aid — free medical camps, welfare clinics, surgical camps and disaster response, without discrimination. A not-for-profit organization registered under SECP.</p>
+        <div class="f-social">
+          <a href="https://www.facebook.com/MMMPakofficial/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon fill"><use href="#i-fb"/></svg></a>
+          <a href="https://x.com/MMMPakOfficial" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg class="icon fill"><use href="#i-x"/></svg></a>
+          <a href="https://www.instagram.com/muslimmedicalmission/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon"><use href="#i-ig"/></svg></a>
+          <a href="https://wa.me/923214244433" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon fill"><use href="#i-wa"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="f-links">
+          <li><a href="#about"><svg class="icon"><use href="#i-arr-r"/></svg>About MMM</a></li>
+          <li><a href="#work"><svg class="icon"><use href="#i-arr-r"/></svg>Our Programs</a></li>
+          <li><a href="#gaza"><svg class="icon"><use href="#i-arr-r"/></svg>Gaza Relief Mission</a></li>
+          <li><a href="#gallery"><svg class="icon"><use href="#i-arr-r"/></svg>Gallery</a></li>
+          <li><a href="#membership"><svg class="icon"><use href="#i-arr-r"/></svg>Membership</a></li>
+          <li><a href="#donate"><svg class="icon"><use href="#i-arr-r"/></svg>Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Programs</h4>
+        <ul class="f-links">
+          <li><a href="#work"><svg class="icon"><use href="#i-arr-r"/></svg>Free Medical Camps</a></li>
+          <li><a href="#work"><svg class="icon"><use href="#i-arr-r"/></svg>Welfare Clinics</a></li>
+          <li><a href="#work"><svg class="icon"><use href="#i-arr-r"/></svg>Surgical Camps</a></li>
+          <li><a href="#work"><svg class="icon"><use href="#i-arr-r"/></svg>Health Awareness</a></li>
+          <li><a href="#disasters"><svg class="icon"><use href="#i-arr-r"/></svg>Disaster Relief</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p>Field updates, mission reports and ways to help — straight to your inbox.</p>
+        <form class="news-form" id="newsForm" novalidate>
+          <label class="sr-only" for="newsEmail">Email address</label>
+          <input id="newsEmail" type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p style="margin-top:1.2rem"><svg class="icon" style="display:inline-block;vertical-align:-3px;color:var(--c-gold-light);width:15px;height:15px"><use href="#i-phone"/></svg> <a href="tel:+923214244433">+92 (321) 424 4433</a><br><svg class="icon" style="display:inline-block;vertical-align:-3px;color:var(--c-gold-light);width:15px;height:15px"><use href="#i-mail"/></svg> <a href="mailto:muslimmedical@gmail.com">muslimmedical@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2025</span> Muslim Medical Mission · SECP Registered Non-Profit · Lahore, Pakistan</span>
+      <span class="arabic" style="color:var(--c-gold-light)">وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MEMBERSHIP MODAL ============ -->
+<div class="overlay" id="memberOverlay" role="dialog" aria-modal="true" aria-labelledby="memberTitle">
+  <div class="modal">
+    <button class="modal-close" id="memberClose" aria-label="Close membership form"><svg class="icon"><use href="#i-close"/></svg></button>
+    <p class="kicker">Membership Application</p>
+    <h3 id="memberTitle" style="font-size:1.5rem;margin:.5rem 0 1.4rem">Apply to Join Muslim Medical Mission</h3>
+    <form id="memberForm" novalidate>
+      <div class="f-row two">
+        <div class="f-group"><label for="mf-name">Full Name <b>*</b></label><input id="mf-name" type="text" required><span class="err">Required.</span></div>
+        <div class="f-group"><label for="mf-father">Father / Husband Name <b>*</b></label><input id="mf-father" type="text" required><span class="err">Required.</span></div>
+      </div>
+      <div class="f-row two">
+        <div class="f-group"><label for="mf-gender">Gender <b>*</b></label><select id="mf-gender" required><option value="">Select…</option><option>Male</option><option>Female</option></select><span class="err">Required.</span></div>
+        <div class="f-group"><label for="mf-cat">Membership Category <b>*</b></label><select id="mf-cat" required><option value="">Select…</option><option>Doctor</option><option>Allied Health Professional</option><option>Medical Student</option><option>Allied Health Student</option></select><span class="err">Required.</span></div>
+      </div>
+      <div class="f-row two">
+        <div class="f-group"><label for="mf-disc">Discipline <b>*</b></label><input id="mf-disc" type="text" required><span class="err">Required.</span></div>
+        <div class="f-group"><label for="mf-org">Organization Name <b>*</b></label><input id="mf-org" type="text" required><span class="err">Required.</span></div>
+      </div>
+      <div class="f-row two">
+        <div class="f-group"><label for="mf-spec">Specialty</label><input id="mf-spec" type="text"></div>
+        <div class="f-group"><label for="mf-dept">Department / Institution <b>*</b></label><input id="mf-dept" type="text" required><span class="err">Required.</span></div>
+      </div>
+      <div class="f-row two">
+        <div class="f-group"><label for="mf-wa">WhatsApp Number <b>*</b></label><input id="mf-wa" type="tel" required><span class="err">Required.</span></div>
+        <div class="f-group"><label for="mf-phone">Main Contact Number</label><input id="mf-phone" type="tel"></div>
+      </div>
+      <div class="f-group"><label for="mf-email">Email <b>*</b></label><input id="mf-email" type="email" required><span class="err">Enter a valid email.</span></div>
+      <div class="f-group"><label for="mf-addr">Postal Address <b>*</b></label><textarea id="mf-addr" rows="2" required></textarea><span class="err">Required.</span></div>
+      <button class="btn btn-primary" type="submit" style="width:100%"><svg class="icon fill"><use href="#i-wa"/></svg>Submit Application via WhatsApp</button>
+      <p style="font-size:.78rem;color:var(--c-muted);margin-top:.8rem;text-align:center">Your application opens in WhatsApp so our team can process it directly.</p>
+    </form>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Gallery image viewer">
+  <div class="modal lb">
+    <button class="lb-close" id="lbClose" aria-label="Close gallery"><svg class="icon"><use href="#i-close"/></svg></button>
+    <figure>
+      <img id="lbImg" src="" alt="">
+      <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image"><svg class="icon"><use href="#i-arr-l"/></svg></button>
+      <button class="lb-nav lb-next" id="lbNext" aria-label="Next image"><svg class="icon"><use href="#i-arr-r"/></svg></button>
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+  </div>
+</div>
+
+<div id="toasts" aria-live="polite"></div>
+<button class="to-top" id="toTop" aria-label="Back to top"><svg class="icon"><use href="#i-up"/></svg></button>
+
+<script>
+(function(){
+"use strict";
+document.documentElement.classList.add('js');
+var $=function(s,c){return (c||document).querySelector(s)};
+var $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* Year */
+$('#year').textContent=new Date().getFullYear();
+
+/* Toasts */
+function toast(msg){
+  var t=document.createElement('div');t.className='toast';
+  t.innerHTML='<svg class="icon"><use href="#i-check"/></svg><span></span>';
+  t.querySelector('span').textContent=msg;
+  $('#toasts').appendChild(t);
+  setTimeout(function(){t.classList.add('out');setTimeout(function(){t.remove()},350)},3600);
+}
+
+/* Header scroll + back-to-top */
+var header=$('#siteHeader'),toTop=$('#toTop');
+function onScroll(){
+  header.classList.toggle('scrolled',window.scrollY>10);
+  toTop.classList.toggle('show',window.scrollY>600);
+}
+window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:reduced?'auto':'smooth'})});
+
+/* Mobile drawer */
+var navToggle=$('#navToggle'),drawer=$('#drawer');
+function setDrawer(open){
+  navToggle.setAttribute('aria-expanded',open);
+  navToggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+  drawer.classList.toggle('open',open);
+  drawer.setAttribute('aria-hidden',!open);
+  document.body.style.overflow=open?'hidden':'';
+}
+navToggle.addEventListener('click',function(){setDrawer(navToggle.getAttribute('aria-expanded')!=='true')});
+$$('#drawer a').forEach(function(a){a.addEventListener('click',function(){setDrawer(false)})});
+$$('.sub-toggle',drawer).forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var sub=btn.nextElementSibling,open=sub.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open);
+  });
+});
+
+/* Desktop dropdowns (click for touch / keyboard) */
+$$('.has-drop .drop-btn').forEach(function(btn){
+  btn.addEventListener('click',function(e){
+    e.stopPropagation();
+    var wrap=btn.parentElement,open=wrap.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open);
+  });
+});
+document.addEventListener('click',function(){$$('.has-drop.open').forEach(function(d){d.classList.remove('open');$('.drop-btn',d).setAttribute('aria-expanded','false')})});
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){
+    if(lightbox.classList.contains('open')){closeLB();return}
+    if(memberOverlay.classList.contains('open')){closeMember();return}
+    if(drawer.classList.contains('open')){setDrawer(false);return}
+    $$('.has-drop.open').forEach(function(d){d.classList.remove('open')});
+  }
+});
+
+/* Hero slider */
+var slides=$$('.hero-slide'),dotsWrap=$('#heroDots'),heroIdx=0,heroTimer=null;
+slides.forEach(function(_,i){
+  var d=document.createElement('button');d.className='hero-dot';d.setAttribute('role','tab');
+  d.setAttribute('aria-label','Go to slide '+(i+1));
+  d.addEventListener('click',function(){show(i);restart()});
+  dotsWrap.appendChild(d);
+});
+var dots=$$('.hero-dot',dotsWrap);
+function show(i){
+  heroIdx=(i+slides.length)%slides.length;
+  slides.forEach(function(s,k){s.classList.toggle('is-active',k===heroIdx)});
+  dots.forEach(function(d,k){d.classList.toggle('active',k===heroIdx);d.setAttribute('aria-selected',k===heroIdx)});
+}
+function next(){show(heroIdx+1)}function prev(){show(heroIdx-1)}
+function restart(){
+  if(heroTimer){clearInterval(heroTimer);heroTimer=null}
+  if(!reduced){heroTimer=setInterval(next,6500)}
+}
+$('#heroNext').addEventListener('click',function(){next();restart()});
+$('#heroPrev').addEventListener('click',function(){prev();restart()});
+var heroEl=$('.hero');
+heroEl.addEventListener('mouseenter',function(){if(heroTimer){clearInterval(heroTimer);heroTimer=null}});
+heroEl.addEventListener('mouseleave',restart);
+var touchX=null;
+heroEl.addEventListener('touchstart',function(e){touchX=e.touches[0].clientX},{passive:true});
+heroEl.addEventListener('touchend',function(e){
+  if(touchX===null)return;
+  var dx=e.changedTouches[0].clientX-touchX;
+  if(Math.abs(dx)>48){dx<0?next():prev();restart()}
+  touchX=null;
+},{passive:true});
+show(0);restart();
+
+/* Reveal on scroll */
+var revealIO=new IntersectionObserver(function(entries){
+  entries.forEach(function(en){
+    if(en.isIntersecting){en.target.classList.add('revealed');revealIO.unobserve(en.target)}
+  });
+},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+$$('[data-reveal]').forEach(function(el){revealIO.observe(el)});
+
+/* Counters */
+function animateCount(el){
+  var target=parseInt(el.getAttribute('data-count'),10);
+  var start=parseInt(el.getAttribute('data-start')||'0',10);
+  var suffix=el.getAttribute('data-suffix')||'';
+  if(reduced){el.textContent=target+suffix;return}
+  var dur=1400,t0=null;
+  function step(ts){
+    if(!t0)t0=ts;
+    var p=Math.min((ts-t0)/dur,1);p=1-Math.pow(1-p,3);
+    el.textContent=Math.round(start+(target-start)*p)+suffix;
+    if(p<1)requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+var countIO=new IntersectionObserver(function(entries){
+  entries.forEach(function(en){
+    if(en.isIntersecting){animateCount(en.target);countIO.unobserve(en.target)}
+  });
+},{threshold:.6});
+$$('[data-count]').forEach(function(el){countIO.observe(el)});
+
+/* Active nav highlight */
+var navMap={};
+$$('.main-nav a.nav-link').forEach(function(a){navMap[a.getAttribute('href').slice(1)]=a});
+var secIO=new IntersectionObserver(function(entries){
+  entries.forEach(function(en){
+    if(en.isIntersecting){
+      $$('.main-nav a.nav-link').forEach(function(a){a.classList.remove('active')});
+      var link=navMap[en.target.id];if(link)link.classList.add('active');
+    }
+  });
+},{rootMargin:'-40% 0px -55% 0px'});
+['home','about','work','gaza','disasters','gallery','videos','membership','donate','contact'].forEach(function(id){
+  var s=document.getElementById(id);if(s)secIO.observe(s);
+});
+
+/* Gallery filter */
+var filters=$$('.g-filter'),gItems=$$('.g-item');
+filters.forEach(function(f){
+  f.addEventListener('click',function(){
+    filters.forEach(function(x){x.classList.remove('active')});
+    f.classList.add('active');
+    var cat=f.getAttribute('data-filter');
+    gItems.forEach(function(it){
+      var showIt=(cat==='all')||(it.getAttribute('data-cat')===cat);
+      it.classList.toggle('hidden',!showIt);
+    });
+  });
+});
+
+/* Lightbox */
+var lightbox=$('#lightbox'),lbImg=$('#lbImg'),lbCap=$('#lbCap'),lbList=[],lbIdx=0,lastFocus=null;
+function buildLB(){
+  lbList=gItems.filter(function(it){return !it.classList.contains('hidden')});
+}
+function renderLB(){
+  var it=lbList[lbIdx];
+  lbImg.src=it.getAttribute('data-full');
+  lbImg.alt=$('img',it).alt;
+  lbCap.innerHTML='<span class="g-tag">'+$('.g-tag',it).textContent+'</span>'+it.getAttribute('data-cap');
+}
+function openLB(item){
+  buildLB();
+  lbIdx=lbList.indexOf(item);if(lbIdx<0)lbIdx=0;
+  lastFocus=document.activeElement;
+  renderLB();
+  lightbox.classList.add('open');
+  document.body.style.overflow='hidden';
+  $('#lbClose').focus();
+}
+function closeLB(){
+  lightbox.classList.remove('open');
+  document.body.style.overflow='';
+  if(lastFocus)lastFocus.focus();
+}
+gItems.forEach(function(it){it.addEventListener('click',function(){openLB(it)})});
+$('#lbClose').addEventListener('click',closeLB);
+$('#lbNext').addEventListener('click',function(){lbIdx=(lbIdx+1)%lbList.length;renderLB()});
+$('#lbPrev').addEventListener('click',function(){lbIdx=(lbIdx-1+lbList.length)%lbList.length;renderLB()});
+lightbox.addEventListener('click',function(e){if(e.target===lightbox)closeLB()});
+document.addEventListener('keydown',function(e){
+  if(!lightbox.classList.contains('open'))return;
+  if(e.key==='ArrowRight'){$('#lbNext').click()}
+  if(e.key==='ArrowLeft'){$('#lbPrev').click()}
+});
+
+/* Copy buttons */
+$$('.copy-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var val=btn.getAttribute('data-copy');
+    function done(){
+      var old=btn.innerHTML;
+      btn.innerHTML='<svg class="icon"><use href="#i-check"/></svg>Copied';
+      toast('Copied to clipboard: '+val);
+      setTimeout(function(){btn.innerHTML=old},2000);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(val).then(done).catch(done);
+    }else{
+      var ta=document.createElement('textarea');ta.value=val;document.body.appendChild(ta);
+      ta.select();try{document.execCommand('copy')}catch(e){}ta.remove();done();
+    }
+  });
+});
+
+/* Accordions */
+$$('.acc-item').forEach(function(item){
+  var btn=$('.acc-btn',item),panel=$('.acc-panel',item);
+  btn.addEventListener('click',function(){
+    var open=item.classList.contains('open');
+    $$('.acc-item.open').forEach(function(o){
+      o.classList.remove('open');
+      $('.acc-btn',o).setAttribute('aria-expanded','false');
+      $('.acc-panel',o).style.maxHeight=null;
+    });
+    if(!open){
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded','true');
+      panel.style.maxHeight=panel.scrollHeight+'px';
+    }
+  });
+});
+
+/* Membership modal */
+var memberOverlay=$('#memberOverlay');
+function openMember(){
+  lastFocus=document.activeElement;
+  memberOverlay.classList.add('open');
+  document.body.style.overflow='hidden';
+  $('#memberClose').focus();
+}
+function closeMember(){
+  memberOverlay.classList.remove('open');
+  document.body.style.overflow='';
+  if(lastFocus)lastFocus.focus();
+}
+$('#openMember').addEventListener('click',openMember);
+$$('.open-member-alt').forEach(function(b){b.addEventListener('click',openMember)});
+$('#memberClose').addEventListener('click',closeMember);
+memberOverlay.addEventListener('click',function(e){if(e.target===memberOverlay)closeMember()});
+
+/* Form validation helpers */
+function validateForm(form){
+  var ok=true;
+  $$('[required]',form).forEach(function(field){
+    var group=field.closest('.f-group');if(!group)return;
+    var valid=field.value.trim().length>0;
+    if(valid&&field.type==='email'){valid=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(field.value.trim())}
+    group.classList.toggle('invalid',!valid);
+    if(!valid&&ok){field.focus();ok=false}
+  });
+  return ok;
+}
+$$('input,select,textarea').forEach(function(f){
+  f.addEventListener('input',function(){var g=f.closest('.f-group');if(g)g.classList.remove('invalid')});
+});
+
+/* Membership submit → WhatsApp */
+$('#memberForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  if(!validateForm(this))return;
+  var lines=[
+    'MEMBERSHIP APPLICATION — Muslim Medical Mission',
+    'Name: '+$('#mf-name').value,
+    'Father/Husband: '+$('#mf-father').value,
+    'Gender: '+$('#mf-gender').value,
+    'Category: '+$('#mf-cat').value,
+    'Discipline: '+$('#mf-disc').value,
+    'Organization: '+$('#mf-org').value,
+    'Specialty: '+($('#mf-spec').value||'—'),
+    'Department/Institution: '+$('#mf-dept').value,
+    'WhatsApp: '+$('#mf-wa').value,
+    'Main Contact: '+($('#mf-phone').value||'—'),
+    'Email: '+$('#mf-email').value,
+    'Address: '+$('#mf-addr').value
+  ];
+  window.open('https://wa.me/923214244433?text='+encodeURIComponent(lines.join('\n')),'_blank');
+  closeMember();
+  this.reset();
+  toast('JazakAllah Khair! Your application is opening in WhatsApp.');
+});
+
+/* Contact submit → mailto */
+$('#contactForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  if(!validateForm(this))return;
+  var subj=encodeURIComponent($('#cf-sub').value);
+  var body=encodeURIComponent('Name: '+$('#cf-name').value+'\nEmail: '+$('#cf-email').value+'\n\n'+$('#cf-msg').value);
+  window.location.href='mailto:muslimmedical@gmail.com?subject='+subj+'&body='+body;
+  toast('Opening your email app — JazakAllah Khair for reaching out.');
+});
+
+/* Newsletter */
+$('#newsForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var email=$('#newsEmail');
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())){
+    toast('Please enter a valid email address to subscribe.');email.focus();return;
+  }
+  email.value='';
+  toast('JazakAllah Khair! Newsletter delivery activates once connected to our mailing service.');
+});
+})();
+</script>
+</body>
+</html>
